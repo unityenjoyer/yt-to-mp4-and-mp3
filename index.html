@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube to MP3 Converter</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>YouTube to MP3 Converter</h1>
+  <div style="display: flex; justify-content: center;">
+    <div style="display: flex; flex-direction: row; align-items: center; background-color: peach; border-radius: 20px; padding: 10px;">
+      <input type="text" id="video-url" placeholder="Enter YouTube video URL" style="border: none; background-color: peach; color: royalblue; font-size: 16px; width: 400px; margin-right: 10px; border-radius: 10px;">
+      <button id="submit-button" style="border: none; background-color: royalblue; color: peach; font-size: 16px; padding: 10px 20px; border-radius: 10px; cursor: pointer;">Convert</button>
+    </div>
+  </div>
+  <iframe id="mp3-player" width="100%" height="130%" allowtransparency="true" scrolling="no" style="border:none;"></iframe>
+  <script src="script.js"></script>
+</body>
+</html>
